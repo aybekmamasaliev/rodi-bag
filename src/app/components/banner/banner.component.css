@@ -1,0 +1,20 @@
+.sub-banner{
+    width: calc(50% - 4px);
+    aspect-ratio: 3/2;
+}
+
+.bg_yel{
+    background-image: url("../../../assets/media/brand_img_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg_bl{
+    background-image: url("../../../assets/media/brand_img_3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.h_100{
+    height: 100%;
+}

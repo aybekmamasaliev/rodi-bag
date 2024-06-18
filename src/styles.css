@@ -2,6 +2,10 @@ li{
     list-style: none;
 }
 
+.fs_12{
+    font-size: 12px;
+}
+
 .fs_14{
     font-size: 14px;
 }
@@ -18,7 +22,13 @@ li{
     font-size: 24px;
 }
 
-.fw_400
+.fs_30{
+    font-size: 30px;
+}
+
+.fw_400{
+    font-weight: 400;
+}
 
 .fw_600{
     font-weight: 600;
