@@ -1,0 +1,48 @@
+ul{
+    align-items: center;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+li{
+    position: relative;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.stik{
+    display: block;
+    width: 24px;
+    height: 3px;
+    margin-bottom: 6px;
+    background-color: #000;
+    border-radius: 4px;
+}
+
+ul>li>a:hover{
+    color: chocolate;
+}
+
+.sub-div{
+    min-width: 150px;
+    position: absolute;
+    display: none;
+    top: 100%; 
+    left: 0;
+}
+
+.sub-ul{
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+li:hover .sub-div {
+    display: block !important;
+}
+
