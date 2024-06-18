@@ -1,0 +1,15 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0.5rem;
+}
+
+.product-card{
+    width: calc(25% - 0.5rem);
+    min-height: 450px;
+    margin-bottom: 1rem;
+}
+
+.card-img{
+    width:100%;
+}
