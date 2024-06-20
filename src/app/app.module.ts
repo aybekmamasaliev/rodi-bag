@@ -10,6 +10,7 @@ import { ProductsComponent } from './components/products/products.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { WhyComponent } from './components/why/why.component';
+import { SpecificProductComponent } from './components/specific-product/specific-product.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { WhyComponent } from './components/why/why.component';
     ProductsComponent,
     FooterComponent,
     ContactUsComponent,
-    WhyComponent
+    WhyComponent,
+    SpecificProductComponent
   ],
   imports: [
     BrowserModule,

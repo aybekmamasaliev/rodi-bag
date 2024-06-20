@@ -1,0 +1,13 @@
+.specific-product {
+    background-color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.app-band {
+    width: clamp(100px, 70%, 180px);
+}
+
+.app-band-left {
+    width: clamp(180px, 100%, 260px);
+}

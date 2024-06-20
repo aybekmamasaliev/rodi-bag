@@ -46,3 +46,17 @@ li:hover .sub-div {
     display: block !important;
 }
 
+
+.notif{
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: #db3340;
+    position: absolute;
+    top: -4px;
+    left: 16px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+
