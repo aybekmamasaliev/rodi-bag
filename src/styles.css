@@ -1,3 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
 li{
     list-style: none;
 }
@@ -42,4 +52,12 @@ li{
     position: sticky;
     top: -10px;
     z-index: 999;
+}
+
+.ps_rel{
+    position: relative;
+}
+
+.color_logo{
+    color: #ff0a0a;
 }

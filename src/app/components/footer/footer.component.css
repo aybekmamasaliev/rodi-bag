@@ -1,0 +1,30 @@
+.footer {
+    background-color: #fafafa;
+}
+
+ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+i {
+    aspect-ratio: 1/1;
+}
+
+.icon-wrapper {
+    border-radius: 50%;
+    border: 1.5px solid gray;
+    padding: 1.2rem;
+    font-size: 18px;
+}
+
+.smm{
+    border-bottom: 1px solid gray;
+}
