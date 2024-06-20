@@ -1,0 +1,16 @@
+.bg-img{
+    background-image: url("../../../assets/media/world_dot.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    /* background-position: 50px 0px ; */
+}
+
+
+.fs_48{
+    font-size: 48px;
+}
