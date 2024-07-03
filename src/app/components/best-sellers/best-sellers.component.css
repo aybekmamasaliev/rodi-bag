@@ -1,0 +1,11 @@
+    .best-sellers{
+        background-image: url("../../../assets/media/best_seller.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .img-one{
+        width: clamp( 300px , 100% , 550px)
+    }
