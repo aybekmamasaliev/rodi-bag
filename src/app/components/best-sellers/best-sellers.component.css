@@ -9,3 +9,23 @@
     .img-one{
         width: clamp( 300px , 100% , 550px)
     }
+
+    .view-all{
+        background-color: #db3340;
+        border-radius: 8px;
+        padding: 14px 28px;
+        font-size: 14px;
+        line-height:20px;
+        border: none;
+        color: #fff;
+    }
+
+    .contact-us{
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 14px 28px;
+        font-size: 14px;
+        line-height:20px;
+        border: 1px solid gray;
+        color: #000;
+    }
