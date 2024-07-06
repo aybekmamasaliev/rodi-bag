@@ -1,5 +1,5 @@
-<div class="ps_stiky bg-white">
-    <div class="container-xl d-flex justify-content-between align-items-center p-3">
+<div class="ps_stiky bg-white" style="height: 92px;">
+    <div class="container-xl d-flex justify-content-between align-items-center p-3"  *ngIf="isSearchBar">
         <div class="d-xl-none">
             <span class="stik"></span>
             <span class="stik"></span>
@@ -7,7 +7,12 @@
         </div>
         <img src="assets/media/ronixa_brand_logo.png" alt="" />
 
-        <a href="#" class="d-xl-none fs_18"><i class="fa-solid fa-bag-shopping"></i></a>
+        <a href="#" class="d-xl-none fs_18">
+            <div class="ps_rel me-3">
+                <i class="bi bi-bag fs_20"></i>
+                <span class="notif">0</span>
+            </div>        
+        </a>
 
         <ul class="gap-4 fs_14 d-none d-xl-flex fw_600">
             <li><a href="#">WATCH BAND</a></li>
@@ -16,7 +21,7 @@
             <li><a href="#">HEADPHONES</a></li>
         </ul>
         <ul class="gap-4 fs_18 d-none d-xl-flex">
-            <li>
+            <li (click)="showSearchInput()">
                 <i class="bi bi-search fs_18"></i>
             </li>
             <li><i class="bi bi-person fs_24"></i>
@@ -70,5 +75,14 @@
                 </div>
             </li>
         </ul>
+    </div>
+    <div class="container-xl d-flex justify-content-center align-items-center h-100"  *ngIf="!isSearchBar">
+        <div class="col-11 d-flex align-items-center">
+            <div class="border rounded-3 w-100">
+                <input type="text" name="search" placeholder="Search" class="search_input fs_14 rounded-3 border-0 p-2  w-100" />
+            </div>
+            <i class="fa fa-search fs_22 ms-3"></i>
+            <i class="fa fa-close ms-3" (click)="showSearchInput()"></i>
+        </div>
     </div>
 </div>
