@@ -12,6 +12,7 @@ import { ContactUsComponent } from './components/contact-us/contact-us.component
 import { WhyComponent } from './components/why/why.component';
 import { SpecificProductComponent } from './components/specific-product/specific-product.component';
 import { BestSellersComponent } from './components/best-sellers/best-sellers.component';
+import { ProductCardComponent } from './components/product-card/product-card.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { BestSellersComponent } from './components/best-sellers/best-sellers.com
     ContactUsComponent,
     WhyComponent,
     SpecificProductComponent,
-    BestSellersComponent
+    BestSellersComponent,
+    ProductCardComponent
   ],
   imports: [
     BrowserModule,

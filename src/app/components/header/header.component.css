@@ -53,8 +53,8 @@ li:hover .sub-div {
     border-radius: 50%;
     background-color: #db3340;
     position: absolute;
-    top: -4px;
-    left: 16px;
+    top: 0px;
+    left: 13px;
     color: #fff;
     font-size: 12px;
     text-align: center;
