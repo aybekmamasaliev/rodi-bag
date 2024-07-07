@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GlobalVariableService } from '../../services/global-variable.service';
 
 @Component({
   selector: 'app-header',
@@ -10,14 +11,18 @@ export class HeaderComponent implements OnInit{
   isSearchBar:boolean = true
 
 
-  constructor(){
+  constructor(private globalVar: GlobalVariableService){
   }
 
   ngOnInit(): void {
     
   }
 
-  showSearchInput(){
+  showSearchInput():void{
     this.isSearchBar = !this.isSearchBar
+  }
+
+  showMenu():void{
+    this.globalVar.showModalBg()
   }
 }

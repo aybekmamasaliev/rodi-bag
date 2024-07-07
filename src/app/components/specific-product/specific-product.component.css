@@ -11,3 +11,13 @@
 .app-band-left {
     width: clamp(180px, 100%, 260px);
 }
+
+@media (max-width:992px) {
+    .app-band {
+        width: 50%;
+    }
+
+    .app-band-left{
+        width: 50%;
+    }
+}

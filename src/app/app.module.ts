@@ -13,6 +13,8 @@ import { WhyComponent } from './components/why/why.component';
 import { SpecificProductComponent } from './components/specific-product/specific-product.component';
 import { BestSellersComponent } from './components/best-sellers/best-sellers.component';
 import { ProductCardComponent } from './components/product-card/product-card.component';
+import { ModalBgComponent } from './components/modal-bg/modal-bg.component';
+import { MainMenuComponent } from './components/main-menu/main-menu.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { ProductCardComponent } from './components/product-card/product-card.com
     WhyComponent,
     SpecificProductComponent,
     BestSellersComponent,
-    ProductCardComponent
+    ProductCardComponent,
+    ModalBgComponent,
+    MainMenuComponent
   ],
   imports: [
     BrowserModule,

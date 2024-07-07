@@ -63,7 +63,7 @@ li{
 .ps_stiky{
     position: sticky;
     top: -10px;
-    z-index: 999;
+    z-index: 9;
 }
 
 .ps_rel{
@@ -72,4 +72,27 @@ li{
 
 .color_logo{
     color: #ff0a0a;
+}
+
+.overflow-x-auto{
+    overflow-x: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.overflow-x-auto::-webkit-scrollbar{
+    display: none;  /* Chrome, Safari, Opera */
+}
+
+
+
+.section-title{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+@media (max-width: 991px) {
+    .section-title {
+        font-size: 22px;
+    }
 }

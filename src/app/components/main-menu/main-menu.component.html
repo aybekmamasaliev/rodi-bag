@@ -1,0 +1,73 @@
+<div class="main-menu" [ngClass]="{show: (globalVar.isModalBg | async),
+                hide : !(globalVar.isModalBg | async)   }">
+    <div class="d-flex align-items-center ps-4 py-4 pe-3">
+        <input type="text" name="search" class="search-field p-2 border-0" placeholder="Search for products" />
+        <i class="bi-search fs_18 ms-3"></i>
+    </div>
+    <div class="p-3 bg-lightgray text-center border-danger border-bottom">
+        <div class="fs_12 fw_600 ">MENU</div>
+    </div>
+    <ul class="fs_12 fw_600 border-danger border-top">
+        <li class="py-3 ps-4 border-bottom">WATCH BRAND</li>
+        <li class="py-3 ps-4 border-bottom">CASE COVER</li>
+        <li class="py-3 ps-4 border-bottom">CHARGER</li>
+        <li class="py-3 ps-4 border-bottom">HEADPHONES</li>
+        <li class="py-3 ps-4 border-bottom d-flex align-items-center">
+            <i class="bi bi-suit-heart fs_20"></i>
+            <span class="notif">0</span>
+            <span class="ms-3 fs_16 fw_400">WISHLIST</span>
+        </li>
+        <li class="py-3 ps-4 border-bottom d-flex align-items-center">
+            <i class="bi bi-shuffle fs_20"></i>
+            <span class="notif">0</span>
+            <span class="ms-3 fs_16 fw_400">COMPARE</span>
+        </li>
+        <li class="ps-4 text-secondary fs_16  fw_400 border-bottom">
+            <div class="d-flex justify-content-between border-bottom">
+                <div class="py-3"> $ Currency</div>
+                <div class="px-3 d-flex align-items-center border-start"  [ngClass]="{'bg-danger' :currencyRotate }"
+                    (click)="showCurrency()"> 
+                    <i class="bi bi-chevron-right smooth" [ngClass]="{rotate  : currencyRotate, 'text-white': currencyRotate}"></i>
+                </div>
+            </div>
+
+            <ul class="ps-0" [ngClass]="{ 'd-none' : !currencyRotate}">
+                <li class="py-3 border-bottom">
+                    € Euro
+                </li>
+                <li class="py-3 border-bottom">
+                    £ Pound Sterling
+                </li>
+                <li class="py-3 border-bottom">
+                    $ US Dollar
+                </li>
+            </ul>
+        </li>
+        <li class="ps-4 text-secondary fs_16  fw_400 border-bottom">
+            <div class="d-flex justify-content-between border-bottom">
+                <div class="py-3"><img src="assets/media/en-gb.png" alt="" />  Language</div>
+                <div class="px-3 d-flex align-items-center border-start"  [ngClass]="{'bg-danger' :langRotate }"
+                    (click)="showLang()"> 
+                    <i class="bi bi-chevron-right smooth" [ngClass]="{rotate  : langRotate, 'text-white': langRotate}"></i>
+                </div>
+            </div>
+
+            <ul class="ps-0" [ngClass]="{ 'd-none' : !langRotate}">
+                <li class="py-3 border-bottom">
+                    € Euro
+                </li>
+                <li class="py-3 border-bottom">
+                    £ Pound Sterling
+                </li>
+                <li class="py-3 border-bottom">
+                    $ US Dollar
+                </li>
+            </ul>
+        </li>
+        <li class="d-flex">
+            <a href="#" class="p-3 col-6 bg-lightgray text-center border-white border-end">LOGIN</a>
+            <a href="#" class="p-3 col-6 bg-lightgray text-center border-white border-start">LOGIN</a>
+        </li>
+
+    </ul>
+</div>

@@ -18,3 +18,19 @@
 .h_100{
     height: 100%;
 }
+
+.banner-title{
+    font-size: 30px;
+    color: #777;
+}
+
+@media (max-width:768px) {
+    .sub-banner{
+        width: 100%;
+        aspect-ratio: 3/2;
+    }
+
+    .banner-title {
+        font-size: 5vw;
+    }
+}

@@ -13,3 +13,32 @@
 .card-img{
     width:100%;
 }
+
+.ronixa{
+    font-size: 100px;
+    color: #f7f7f7;
+    line-height: 1;
+}
+
+@media (max-width:992px) {
+    .ronixa{
+        font-size: 70px;
+    }
+
+    .product-card{
+        width: calc(50% - 0.5rem);
+        min-height: 50px;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width:768px) {
+    .ronixa{
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .new_arrivals{
+        margin-bottom: 1rem;
+    }
+}

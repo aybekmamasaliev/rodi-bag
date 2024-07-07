@@ -64,3 +64,8 @@ li:hover .sub-div {
 .search_input:focus{
     outline: 1.5px solid red !important;
 }
+
+.border{
+    box-shadow: 10px 5px 5px gray;
+    box-shadow: .1px .1px gray, -1px 0 1px gray;
+}
