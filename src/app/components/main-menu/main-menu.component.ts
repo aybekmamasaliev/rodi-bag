@@ -8,18 +8,16 @@ import { GlobalVariableService } from '../../services/global-variable.service';
 })
 export class MainMenuComponent {
 
-  currencyRotate=false
-  langRotate=false
+  currencyRotate = false
+  langRotate = false
 
-  constructor(
+  constructor(public globalVar: GlobalVariableService) { }
 
-    public globalVar:GlobalVariableService){}
+  showCurrency(): void {
+    this.currencyRotate = !this.currencyRotate;
+  }
 
-    showCurrency():void{
-      this.currencyRotate = !this.currencyRotate;
-    }
-
-    showLang():void{
-      this.langRotate = !this.langRotate
-    }
+  showLang(): void {
+    this.langRotate = !this.langRotate
+  }
 }

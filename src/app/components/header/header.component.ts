@@ -23,6 +23,12 @@ export class HeaderComponent implements OnInit{
   }
 
   showMenu():void{
-    this.globalVar.showModalBg()
+    this.globalVar.showModalBg();
+    this.globalVar.openMenu();
+  }
+
+  showCardShopping():void{
+    this.globalVar.showModalBg();
+    this.globalVar.openShoppingCard();
   }
 }

@@ -15,6 +15,9 @@ import { BestSellersComponent } from './components/best-sellers/best-sellers.com
 import { ProductCardComponent } from './components/product-card/product-card.component';
 import { ModalBgComponent } from './components/modal-bg/modal-bg.component';
 import { MainMenuComponent } from './components/main-menu/main-menu.component';
+import { SpecificProductPageComponent } from './pages/specific-product-page/specific-product-page.component';
+import { ProductCategoryPageComponent } from './pages/product-category-page/product-category-page.component';
+import { ShoppingCardComponent } from './components/shopping-card/shopping-card.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +33,10 @@ import { MainMenuComponent } from './components/main-menu/main-menu.component';
     BestSellersComponent,
     ProductCardComponent,
     ModalBgComponent,
-    MainMenuComponent
+    MainMenuComponent,
+    SpecificProductPageComponent,
+    ProductCategoryPageComponent,
+    ShoppingCardComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,11 @@
+<div class="shopping-card p-3"
+    [ngClass]="{show : (globalVar.isShoppingCard | async) , hide : !(globalVar.isShoppingCard | async) }">
+
+    <div class="d-flex justify-content-between border-bottom pb-3 p-2">
+        <div class="fs_20 color_roxina">Shopping Cart</div>
+        <div class="close_btn" (click)="closeShoppingCard()">
+            <i class="bi bi-x-lg fs_12 "></i>
+            <div class="ms-2 fw_600 fs_14">close</div>
+        </div>
+    </div>
+</div>

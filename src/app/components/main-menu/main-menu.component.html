@@ -1,5 +1,5 @@
-<div class="main-menu" [ngClass]="{show: (globalVar.isModalBg | async),
-                hide : !(globalVar.isModalBg | async)   }">
+<div class="main-menu" [ngClass]="{show: (globalVar.isMenuOpen | async),
+                hide : !(globalVar.isMenuOpen | async)   }">
     <div class="d-flex align-items-center ps-4 py-4 pe-3">
         <input type="text" name="search" class="search-field p-2 border-0" placeholder="Search for products" />
         <i class="bi-search fs_18 ms-3"></i>
@@ -66,8 +66,7 @@
         </li>
         <li class="d-flex">
             <a href="#" class="p-3 col-6 bg-lightgray text-center border-white border-end">LOGIN</a>
-            <a href="#" class="p-3 col-6 bg-lightgray text-center border-white border-start">LOGIN</a>
+            <a href="#" class="p-3 col-6 bg-lightgray text-center border-white border-start">REGISTER</a>
         </li>
-
     </ul>
 </div>
