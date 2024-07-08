@@ -18,6 +18,7 @@ import { MainMenuComponent } from './components/main-menu/main-menu.component';
 import { SpecificProductPageComponent } from './pages/specific-product-page/specific-product-page.component';
 import { ProductCategoryPageComponent } from './pages/product-category-page/product-category-page.component';
 import { ShoppingCardComponent } from './components/shopping-card/shopping-card.component';
+import { BreadcrumbsComponent } from './components/breadcrumbs/breadcrumbs.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ShoppingCardComponent } from './components/shopping-card/shopping-card.
     MainMenuComponent,
     SpecificProductPageComponent,
     ProductCategoryPageComponent,
-    ShoppingCardComponent
+    ShoppingCardComponent,
+    BreadcrumbsComponent
   ],
   imports: [
     BrowserModule,
