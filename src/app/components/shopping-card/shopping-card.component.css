@@ -1,7 +1,7 @@
 .shopping-card{
     position: fixed;
     top: 0;
-    bottom: 0;
+    height: 100vh;
     right: -340px;
     width: 300px;
     background-color: #fff;
@@ -22,4 +22,26 @@
     cursor: pointer;
     display: flex;
     align-items: center;
+}
+
+
+.choosed-icon{
+    width: 50px;
+}
+
+.view-card-btn{
+    text-align: center;
+    padding: 12px 20px;
+    background-color: #f7f7f7;
+    display: block;
+    margin-top: 1rem;
+    font-size: 12px;
+}
+
+.checkout-btn{
+    text-align: center;
+    padding: 12px 20px;
+    display: block;
+    margin-top: 1rem;
+    font-size: 12px;
 }

@@ -88,6 +88,17 @@ li{
     display: none;  /* Chrome, Safari, Opera */
 }
 
+.overflow-y-auto{
+    overflow-y: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.overflow-y-auto::-webkit-scrollbar{
+    display: none;  /* Chrome, Safari, Opera */
+}
+
+
 .c_pointer{
     cursor: pointer;
 }

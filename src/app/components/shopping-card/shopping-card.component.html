@@ -1,11 +1,139 @@
-<div class="shopping-card p-3"
+<div class="shopping-card p-3 overflow-y-auto" 
     [ngClass]="{show : (globalVar.isShoppingCard | async) , hide : !(globalVar.isShoppingCard | async) }">
 
     <div class="d-flex justify-content-between border-bottom pb-3 p-2">
         <div class="fs_20 color_roxina">Shopping Cart</div>
         <div class="close_btn" (click)="closeShoppingCard()">
-            <i class="bi bi-x-lg fs_12 "></i>
+            <i class="fa fa-times"></i>
             <div class="ms-2 fw_600 fs_14">close</div>
         </div>
     </div>
+    <div class="py-3 px-2" >
+        <div class="fs_14 color_roxina fs_400 mt-2" *ngIf="false">
+            Your shopping cart is empty!
+        </div>
+        <div>
+            <div class="mt-2">
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex">
+                        <img src="assets/media/airpod-01-550x800.jpg" alt="" class="choosed-icon" />
+                        <div class="fs_14 color_roxina ms-3">
+                            <div>Airpod</div>
+                            <div>x 1</div>
+                            <div>$ 0.00</div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="px-3 py-2 bg-danger text-white border-0 rounded-2">
+                            <i class="fa fa-times"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-2">
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex">
+                        <img src="assets/media/airpod-01-550x800.jpg" alt="" class="choosed-icon" />
+                        <div class="fs_14 color_roxina ms-3">
+                            <div>Airpod</div>
+                            <div>x 1</div>
+                            <div>$ 0.00</div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="px-3 py-2 bg-danger text-white border-0 rounded-2">
+                            <i class="fa fa-times"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-2">
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex">
+                        <img src="assets/media/airpod-01-550x800.jpg" alt="" class="choosed-icon" />
+                        <div class="fs_14 color_roxina ms-3">
+                            <div>Airpod</div>
+                            <div>x 1</div>
+                            <div>$ 0.00</div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="px-3 py-2 bg-danger text-white border-0 rounded-2">
+                            <i class="fa fa-times"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-2">
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex">
+                        <img src="assets/media/airpod-01-550x800.jpg" alt="" class="choosed-icon" />
+                        <div class="fs_14 color_roxina ms-3">
+                            <div>Airpod</div>
+                            <div>x 1</div>
+                            <div>$ 0.00</div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="px-3 py-2 bg-danger text-white border-0 rounded-2">
+                            <i class="fa fa-times"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-2">
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex">
+                        <img src="assets/media/airpod-01-550x800.jpg" alt="" class="choosed-icon" />
+                        <div class="fs_14 color_roxina ms-3">
+                            <div>Airpod</div>
+                            <div>x 1</div>
+                            <div>$ 0.00</div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="px-3 py-2 bg-danger text-white border-0 rounded-2">
+                            <i class="fa fa-times"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-2">
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex">
+                        <img src="assets/media/airpod-01-550x800.jpg" alt="" class="choosed-icon" />
+                        <div class="fs_14 color_roxina ms-3">
+                            <div>Airpod</div>
+                            <div>x 1</div>
+                            <div>$ 0.00</div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="px-3 py-2 bg-danger text-white border-0 rounded-2">
+                            <i class="fa fa-times"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between mt-2 border-bottom py-2">
+                <div class="fw_600 fs_14">SUB-TOTAL</div>
+                <div class="fw_400 fs_14">$ 100.00</div>
+            </div>
+            <div class="d-flex justify-content-between mt-2 border-bottom py-2">
+                <div class="fw_600 fs_14">TOTAL</div>
+                <div class="fw_400 fs_14">$ 100.00</div>
+            </div>
+
+            <a href="#" class="view-card-btn">
+                <i class="fa fa-shopping-cart"></i> View Cart
+            </a>
+
+            <a href="#" class="checkout-btn text-white bg-danger">
+                <i class="fa fa-share"></i> View Cart
+            </a>
+        </div>
+
+    </div>
+
+
 </div>
