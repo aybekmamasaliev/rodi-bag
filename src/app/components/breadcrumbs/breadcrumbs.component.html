@@ -1,5 +1,7 @@
-<ul class="breadcrumbs rounded-4 d-flex text-capitalize">
-    <li class="me-2"><i class="fa fa-home"></i></li>
-    <li class="me-2" *ngIf="parentLinkProps">/ <a href="#">{{parentLinkProps}}</a></li>
-    <li *ngIf="currentLinkProps">/ <a href="" class="text-danger">{{currentLinkProps}} </a></li>
-</ul>
+<div class="container-xl my-4">
+    <ul class="breadcrumbs rounded-4 d-flex text-capitalize">
+        <li class="me-2"><a [routerLink]="'/'"><i class="fa fa-home"></i></a></li>
+        <li class="me-2" *ngIf="parentLinkProps">/ <a href="#">{{parentLinkProps}}</a></li>
+        <li *ngIf="currentLinkProps">/ <a href="" class="red_link">{{currentLinkProps}} </a></li>
+    </ul>
+</div>

@@ -1,0 +1,19 @@
+.aside{
+    width:300px;
+    background-color: #fff;
+    height: 100vh;
+    overflow-y: auto;
+    position: fixed;
+    right: -340px;
+    z-index: 11;
+    top: 0;
+    transition: right 0.3s ease-in-out;
+}
+
+.show {
+    right: 0;
+}
+
+.hide {
+    right: -340px;
+}

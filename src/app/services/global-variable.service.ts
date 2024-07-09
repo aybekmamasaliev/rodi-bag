@@ -12,7 +12,9 @@ export class GlobalVariableService {
 
   isMenuOpen = new BehaviorSubject(false);
 
-  isShoppingCard = new BehaviorSubject(false)
+  isShoppingCard = new BehaviorSubject(false);
+
+  isAside = new BehaviorSubject(false)
 
 
 
@@ -24,6 +26,7 @@ export class GlobalVariableService {
     this.isModalBg.next(false);
     this.isMenuOpen.next(false);
     this.isShoppingCard.next(false);
+    this.isAside.next(false);
   }
 
   openMenu(): void {
@@ -43,5 +46,12 @@ export class GlobalVariableService {
     this.isShoppingCard.next(false)
   }
 
+  openAside():void{
+    this.isAside.next(true)
+  }
+
+  closeAside():void{
+    this.isAside.next(false)
+  }
 
 }

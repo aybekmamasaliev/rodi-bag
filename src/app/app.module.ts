@@ -19,6 +19,7 @@ import { SpecificProductPageComponent } from './pages/specific-product-page/spec
 import { ProductCategoryPageComponent } from './pages/product-category-page/product-category-page.component';
 import { ShoppingCardComponent } from './components/shopping-card/shopping-card.component';
 import { BreadcrumbsComponent } from './components/breadcrumbs/breadcrumbs.component';
+import { AsideCateroriesComponent } from './components/aside-caterories/aside-caterories.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { BreadcrumbsComponent } from './components/breadcrumbs/breadcrumbs.compo
     SpecificProductPageComponent,
     ProductCategoryPageComponent,
     ShoppingCardComponent,
-    BreadcrumbsComponent
+    BreadcrumbsComponent,
+    AsideCateroriesComponent
   ],
   imports: [
     BrowserModule,

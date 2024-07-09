@@ -76,7 +76,11 @@ li{
 }
 
 .color_logo{
-    color: #ff0a0a;
+    color: #ff0a0a !important;
+}
+
+.red_link{
+    color: #DB3340 !important;
 }
 
 .color_roxina{
@@ -103,9 +107,16 @@ li{
     display: none;  /* Chrome, Safari, Opera */
 }
 
+.c_gap_3{
+    column-gap: 1rem;
+}
 
 .c_pointer{
     cursor: pointer;
+}
+
+.bg_milky{
+    background-color: #fafafa;
 }
 
 .section-title{
