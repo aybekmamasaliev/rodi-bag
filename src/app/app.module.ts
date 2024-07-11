@@ -20,6 +20,7 @@ import { ProductCategoryPageComponent } from './pages/product-category-page/prod
 import { ShoppingCardComponent } from './components/shopping-card/shopping-card.component';
 import { BreadcrumbsComponent } from './components/breadcrumbs/breadcrumbs.component';
 import { AsideCateroriesComponent } from './components/aside-caterories/aside-caterories.component';
+import { ProductDetailBoxComponent } from './components/product-detail-box/product-detail-box.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { AsideCateroriesComponent } from './components/aside-caterories/aside-ca
     ProductCategoryPageComponent,
     ShoppingCardComponent,
     BreadcrumbsComponent,
-    AsideCateroriesComponent
+    AsideCateroriesComponent,
+    ProductDetailBoxComponent
   ],
   imports: [
     BrowserModule,
