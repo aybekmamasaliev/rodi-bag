@@ -1,0 +1,28 @@
+.underline-tab {
+    font-size: 14px;
+    padding-block: 14px;
+    font-weight: 400;
+    color: #828284;
+    cursor: pointer;
+    display: block;
+  }
+  
+  .container-xl::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .container-xl{
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  input[type="radio"]:checked + label {
+    color: #db3340;
+    border-bottom: 2px solid #db3340;
+  }
+
+  
+  
+
+  
+  

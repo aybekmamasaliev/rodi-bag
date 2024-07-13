@@ -1,0 +1,25 @@
+.product-section-title{
+    font-size: 46px;
+    font-weight: 500;
+}
+
+.retrina-img{
+    max-width: 100%;
+}
+
+
+@media (max-width:992px) {
+    .product-section-title{
+        font-size: 36px;
+    }
+}
+
+@media (max-width:768px) {
+    .product-section-title{
+        font-size: 22px;
+    }
+
+    h2{
+        font-size: 15px;
+    }
+}

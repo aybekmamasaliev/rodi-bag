@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-main-page',
@@ -6,5 +7,4 @@ import { Component } from '@angular/core';
   styleUrl: './main-page.component.css'
 })
 export class MainPageComponent {
-
 }

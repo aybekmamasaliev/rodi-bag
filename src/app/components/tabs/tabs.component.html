@@ -1,0 +1,9 @@
+<div class="d-flex container-xl border-bottom mb-3 px-0" [ngClass]="incoming_class" style="overflow-x: auto">
+    <div *ngFor="let item of tab_options">
+        <input type="radio" name="tab_options" [id]="'tab_' + item.id" class="d-none" [formControl]="control"
+            [value]="item.value" />
+        <label [for]="'tab_' + item.id" class="underline-tab text-capitalize px-3">
+            {{ item.name }}
+        </label>
+    </div>
+</div>
